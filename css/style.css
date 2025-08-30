@@ -29,8 +29,22 @@ body {
   box-shadow: 8px 8px 0 #000;
 }
 
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+
 .images-window img {
   width: 100%;
   height: 200px;
   border-radius: 10px;
+}
+
+.text-window {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
