@@ -18,6 +18,10 @@ body {
 
 .blog-preview-card {
   width: 384px;
-  height: 520px;
+  height: 522px;
   background-color: hsl(0, 0%, 100%);
+  border: 1px solid #111;
+  border-radius: 20px;
+  padding: 24px;
+  box-shadow: 8px 8px 0 #000;
 }
