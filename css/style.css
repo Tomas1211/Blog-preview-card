@@ -34,6 +34,7 @@ body {
   flex-direction: column;
   height: 100%;
   justify-content: space-between;
+  gap: 24px;
 }
 
 .images-window img {
@@ -47,4 +48,12 @@ body {
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
+}
+
+.author-window {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  gap: 12px;
 }
