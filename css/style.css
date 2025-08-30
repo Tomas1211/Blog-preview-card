@@ -50,10 +50,30 @@ body {
   height: 100%;
 }
 
+.text-window h4 {
+  max-width: max-content;
+  background-color: hsl(47, 88%, 63%);
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 900;
+  color: #111;
+}
+
+.text-window p {
+  font-size: 14px;
+  color: #111;
+}
+
 .author-window {
   display: flex;
   flex-direction: row;
   justify-content: left;
   align-items: center;
   gap: 12px;
+}
+
+.author-window img {
+  width: 32;
+  height: 32px;
 }
