@@ -17,6 +17,7 @@ body {
 }
 
 .blog-preview-card {
-  width: 200px;
+  width: 384px;
+  height: 520px;
   background-color: hsl(0, 0%, 100%);
 }
