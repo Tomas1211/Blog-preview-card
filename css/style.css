@@ -27,6 +27,7 @@ body {
   border-radius: 20px;
   padding: 24px;
   box-shadow: 8px 8px 0 #000;
+  transition: all 0.4s ease;
 }
 
 .wrapper {
@@ -55,14 +56,35 @@ body {
   background-color: hsl(47, 88%, 63%);
   padding: 4px 12px;
   border-radius: 4px;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 900;
   color: #111;
 }
 
 .text-window p {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #111;
+}
+
+.text-window p:nth-of-type(1) {
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.text-window h2 {
+  transition: all 0.2s ease;
+}
+
+.text-window h2:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
+
+.text-window p:nth-of-type(2) {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #6b6b6b;
+  font-weight: 500;
 }
 
 .author-window {
@@ -76,4 +98,10 @@ body {
 .author-window img {
   width: 32;
   height: 32px;
+}
+
+.author-window p {
+  color: #111;
+  font-size: 0.875rem;
+  font-weight: 800;
 }
